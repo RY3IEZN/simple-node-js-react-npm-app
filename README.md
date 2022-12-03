@@ -1,1 +1,1 @@
-Simple, download the JENKINS FILE and insert it into your Repo.
+Simply, download the JENKINS FILE and insert it into your Repo.
