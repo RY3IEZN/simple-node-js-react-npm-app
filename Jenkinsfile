@@ -25,7 +25,7 @@ pipeline {
 
 			steps{
                 echo 'Running K6 performance tests...'
-                sh 'k6 run K6_Https_testjs'
+                sh 'k6 run K6_Https_test.js'
 			}
 		}
     }
