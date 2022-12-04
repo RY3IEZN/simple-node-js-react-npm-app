@@ -20,6 +20,14 @@ pipeline {
                 sh './jenkins/scripts/kill.sh'
             }
         }
+
+        stage("Performance test"){
+
+			steps{
+                echo 'Running K6 performance tests...'
+                sh 'k6 run Performance_Test_Catchupf.js'
+			}
+		}
     }
 }
 
